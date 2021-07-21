@@ -1,5 +1,5 @@
 {
-    "name": "pedroresende/symfonyfeaturetoggle",
+    "name": "pedroresende/symfonyfeaturetogglebundle",
     "description": "Symfony's Feature Toggle Bundle",
     "type": "symfony-bundle",
     "keywords": [
