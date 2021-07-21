@@ -1,8 +1,10 @@
-<?php declare(strict_types=1);
+<?php
 
-namespace App\Repository;
+declare(strict_types=1);
 
-use App\Entity\Feature;
+namespace PedroResende\SymfonyFeatureToggle\Entity\Repository;
+
+use PedroResende\SymfonyFeatureToggle\Entity\Entity\Feature;
 use Doctrine\Bundle\DoctrineBundle\Repository\ServiceEntityRepository;
 use Doctrine\Persistence\ManagerRegistry;
 

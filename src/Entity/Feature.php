@@ -1,8 +1,10 @@
-<?php declare(strict_types=1);
+<?php
 
-namespace App\Entity;
+declare(strict_types=1);
 
-use App\Repository\FeatureRepository;
+namespace PedroResende\SymfonyFeatureToggle\Entity;
+
+use PedroResende\SymfonyFeatureToggle\Repository\FeatureRepository;
 use Doctrine\ORM\Mapping as ORM;
 
 /**

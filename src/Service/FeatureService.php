@@ -1,9 +1,11 @@
-<?php declare(strict_types=1);
+<?php
 
-namespace App\Service;
+declare(strict_types=1);
 
-use App\Entity\Feature;
-use App\Repository\FeatureRepository;
+namespace PedroResende\SymfonyFeatureToggle\Service;
+
+use PedroResende\SymfonyFeatureToggle\Entity\Feature;
+use PedroResende\SymfonyFeatureToggle\Repository\FeatureRepository;
 
 class FeatureService
 {
