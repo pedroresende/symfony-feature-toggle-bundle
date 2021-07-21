@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace PedroResende\SymfonyFeatureToggle\Service;
+namespace PedroResende\SymfonyFeatureToggleBundle\Service;
 
-use PedroResende\SymfonyFeatureToggle\Entity\Feature;
-use PedroResende\SymfonyFeatureToggle\Repository\FeatureRepository;
+use PedroResende\SymfonyFeatureToggleBundle\Entity\Feature;
+use PedroResende\SymfonyFeatureToggleBundle\Repository\FeatureRepository;
 
 class FeatureService
 {

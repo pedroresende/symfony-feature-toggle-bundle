@@ -25,11 +25,12 @@
     },
     "require-dev": {
         "nunomaduro/phpinsights": "^2.0",
-        "pestphp/pest": "^1.11"
+        "pestphp/pest": "^1.11",
+        "symfony/phpunit-bridge": "^5.3"
     },
     "autoload": {
         "psr-4": {
-            "PedroResende\\SymfonyFeatureToggle\\": "src/"
+            "PedroResende\\SymfonyFeatureToggleBundle\\": "src/"
         }
     },
     "autoload-dev": {

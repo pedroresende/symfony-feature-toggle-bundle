@@ -1,10 +1,10 @@
 <?php
 
-namespace Tests\PedroResende\SymfonyFeatureToggle\Service;
+namespace Tests\PedroResende\SymfonyFeatureToggleBundle\Service;
 
-use PedroResende\SymfonyFeatureToggle\Entity\Feature;
-use PedroResende\SymfonyFeatureToggle\Repository\FeatureRepository;
-use PedroResende\SymfonyFeatureToggle\Service\FeatureService;
+use PedroResende\SymfonyFeatureToggleBundle\Entity\Feature;
+use PedroResende\SymfonyFeatureToggleBundle\Repository\FeatureRepository;
+use PedroResende\SymfonyFeatureToggleBundle\Service\FeatureService;
 
 it('isEnabled returns false', function () {
     $feature = new Feature();

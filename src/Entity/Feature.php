@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace PedroResende\SymfonyFeatureToggle\Entity;
+namespace PedroResende\SymfonyFeatureToggleBundle\Entity;
 
-use PedroResende\SymfonyFeatureToggle\Repository\FeatureRepository;
+use PedroResende\SymfonyFeatureToggleBundle\Repository\FeatureRepository;
 use Doctrine\ORM\Mapping as ORM;
 
 /**
